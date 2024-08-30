@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.similar-product-list {
+  list-style-type: none;
+  width: 25rem;
+}
+
+.similar-product-img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+}
+
+.similar-link {
+  text-decoration: none;
+}
+.similar-product-name {
+  font-size: 1.6rem;
+  color: #616e7c;
+  font-weight: 500;
+}
+
+.similar-product-brand {
+  font-size: 1.4rem;
+  color: #616e7c;
+  font-weight: bold;
+}
+
+.price-review-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
